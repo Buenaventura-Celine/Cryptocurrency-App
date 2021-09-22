@@ -24,7 +24,7 @@ a:hover {
 
 .navbar {
   flex: 0.2;
-  background-color: rgb(0, 21, 41);
+  background-color: white;
 }
 
 .main {
@@ -40,18 +40,21 @@ a:hover {
   margin: 10px;
   height: 100vh;
   margin: 0px;
-  background-color: rgb(0, 21, 41);
+  background-color: white;
+  color: black;
 }
 
 .logo-container {
-  background-color: #001529;
+  background-color: white;
   display: flex;
   padding: 20px;
   align-items: center;
   width: 100%;
+  color: #000;
 }
 .logo {
   margin: 0 0 0 15px;
+  color: black;
 }
 .logo a {
   color: white;
@@ -102,6 +105,7 @@ a:hover {
   }
 
   .main {
+    background-color: rgb(0, 21, 41);
     flex: 1;
     margin-top: 90px;
     margin-left: 0px;
@@ -369,9 +373,10 @@ a:hover {
 }
 
 .footer {
-  background-color: #001529;
+  background-color: white;
   display: flex;
   flex-direction: column;
   padding: 20px;
   align-items: center;
+  color: black;
 }
